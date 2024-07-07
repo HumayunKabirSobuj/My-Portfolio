@@ -2,6 +2,7 @@ import AboutMe from "../components/AboutMe";
 import Banner from "../components/Banner";
 import Contact from "../components/Contact";
 import EducationAndExperience from "../components/EducationAndExperience";
+import Footer from "../components/Footer";
 import MyProject from "../components/MyProject";
 import MyService from "../components/MyService";
 import Navbar from "../components/Navbar";
@@ -32,6 +33,9 @@ const Home = () => {
             </div>
             <div id="contact" className="py-5 bg-[#2c0572] rounded-3xl ">
                 <Contact></Contact>
+            </div>
+            <div>
+                <Footer></Footer>
             </div>
             
 
