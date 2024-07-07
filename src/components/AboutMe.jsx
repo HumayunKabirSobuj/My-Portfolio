@@ -42,6 +42,13 @@ const AboutMe = () => {
                                     </div>
                                 </div>
                             </Link>
+                            <Link to='https://www.linkedin.com/in/mdhumayun123/'>
+                                <div className="avatar placeholder">
+                                    <div className="bg-neutral text-neutral-content w-8 rounded-full">
+                                        <span><img className="bg-white" src="https://i.ibb.co/F0Zb4yq/cropped-image.png" alt="" /></span>
+                                    </div>
+                                </div>
+                            </Link>
                         </div>
 
                     </div>

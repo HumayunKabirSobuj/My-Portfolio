@@ -11,11 +11,21 @@ const MyProject = () => {
                     <div className="card-body space-y-5">
                         <h2 className="card-title text-3xl text-white  font-bold ">Canvas Crafts</h2>
                         <p className="text-base  text-white">Canvas Crafts is a specialized online store focused on showcasing and selling various art and craft items. The website is designed with a specific arts & crafts theme, allowing users to browse, add, and manage arts & crafts products.</p>
-                        <div className="text-center space-x-5"  >
-                            <Link to="https://assignment-10-ph-b9.netlify.app/" className="btn btn-sm btn-info">Live</Link>
-                            <Link to="https://github.com/HumayunKabirSobuj/Canvas-Crafts-Client" className="btn btn-sm btn-info">Client Code</Link>
-                            <Link to="https://github.com/HumayunKabirSobuj/Canvas-Crafts-Server" className="btn btn-sm btn-info">Server Code</Link>
+
+
+                        <div>
+                            <div className=" flex justify-between gap-2">
+                                <Link to="https://github.com/HumayunKabirSobuj/Canvas-Crafts-Client" className="flex-1 btn btn-sm btn-info w-full">Client Code</Link>
+                                <Link to="https://github.com/HumayunKabirSobuj/Canvas-Crafts-Server" className="flex-1 btn btn-sm btn-info w-full">Server Code</Link>
+                            </div>
+                            <div className="text-center mt-5">
+                                <Link to="https://assignment-10-ph-b9.netlify.app/" className="btn btn-sm btn-info w-2/3 ">Live Website</Link>
+                            </div>
                         </div>
+
+
+
+                        
 
                     </div>
                 </div>
@@ -24,11 +34,19 @@ const MyProject = () => {
                     <div className="card-body space-y-5">
                         <h2 className="card-title text-3xl text-white  font-bold ">SharePlanty</h2>
                         <p className="text-base  text-white">SharePoint is an innovative platform designed to facilitate community food sharing and reduce food surplus. As a Full Stack Developer, you will create a responsive, feature-rich website using React, Firebase, Node.js, and MongoDB.</p>
-                        <div className="text-center space-x-5"  >
-                            <Link to="https://assignment-11-ph-b9-c0007.netlify.app/" className="btn btn-sm btn-info">Live</Link>
-                            <Link to="https://github.com/HumayunKabirSobuj/SharePlanty-client" className="btn btn-sm btn-info">Client Code</Link>
-                            <Link to="https://github.com/HumayunKabirSobuj/SharePlanty-server" className="btn btn-sm btn-info">Server Code</Link>
+
+                        <div>
+                            <div className=" flex justify-between gap-2">
+                                <Link to="https://github.com/HumayunKabirSobuj/SharePlanty-client" className="flex-1 btn btn-sm btn-info w-full">Client Code</Link>
+                                <Link to="https://github.com/HumayunKabirSobuj/SharePlanty-server" className="flex-1 btn btn-sm btn-info w-full">Server Code</Link>
+                            </div>
+                            <div className="text-center mt-5">
+                                <Link to="https://assignment-11-ph-b9-c0007.netlify.app/" className="btn btn-sm btn-info w-2/3 ">Live Website</Link>
+                            </div>
                         </div>
+
+
+
 
                     </div>
                 </div>
@@ -37,15 +55,23 @@ const MyProject = () => {
                     <div className="card-body space-y-5">
                         <h2 className="card-title text-3xl text-white  font-bold ">ContestHub</h2>
                         <p className="text-base  text-white">Welcome to ContestHub, the ultimate platform for launching and managing creative contests. Whether it is a design competition or coding challenge, ContestHub streamlines contest creation and winner selection, fostering creativity and celebrating excellence.</p>
-                        <div className="text-center space-x-5"  >
-                            <Link to="https://assignment-12-humayun-ph-b9.netlify.app/" className="btn btn-sm btn-info">Live</Link>
-                            <Link to="https://github.com/HumayunKabirSobuj/ContestHub-client" className="btn btn-sm btn-info">Client Code</Link>
-                            <Link to="https://github.com/HumayunKabirSobuj/ContestHub-server" className="btn btn-sm btn-info">Server Code</Link>
+
+                        <div>
+                            <div className=" flex justify-between gap-2">
+                                <Link to="https://github.com/HumayunKabirSobuj/ContestHub-client" className="flex-1 btn btn-sm btn-info w-full">Client Code</Link>
+                                <Link to="https://github.com/HumayunKabirSobuj/ContestHub-server" className="flex-1 btn btn-sm btn-info w-full">Server Code</Link>
+                            </div>
+                            <div className="text-center mt-5">
+                                <Link to="https://assignment-12-humayun-ph-b9.netlify.app/" className="btn btn-sm btn-info w-2/3 ">Live Website</Link>
+                            </div>
                         </div>
+
+
+
 
                     </div>
                 </div>
-                
+
             </div>
         </div>
     );
